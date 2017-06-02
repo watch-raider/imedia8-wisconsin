@@ -1,6 +1,7 @@
 $('.lists').hide();
 
 $(document).ready(function() {
+  $('.lists').hide();
   $('li').hover(function() {
     $(this).toggleClass('touch');
   })
